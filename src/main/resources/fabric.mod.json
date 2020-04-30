@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "showcoordsondeath",
+  "version": "${version}",
+
+  "name": "ShowCoordsOnDeath",
+  "description": "Does what it says on the tin",
+  "authors": [
+    "Me!"
+  ],
+
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.death.ShowCoordsOnDeath"
+    ]
+  },
+  "mixins": [
+    "fabric.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.15.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}

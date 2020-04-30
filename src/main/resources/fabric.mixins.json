@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.death.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    
+  ],
+  "client": [
+  	"GetChatHud",
+  	"PlayerDeathEvent"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+}
+}
